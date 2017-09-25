@@ -1,13 +1,13 @@
 
-## redux-rollbar-log-middleware
+## Redux Rollbar Log Middleware
 
-Middleware that helps log and captureEvent to Rollbar from the sagas and the simple async redux actions
+Middleware that helps log and captureEvent to Rollbar from the redux actions
 
 ## Requirements
 
-We've tested it on [Rollbar.js v2.2.8](https://github.com/rollbar/rollbar.js/releases/tag/v2.2.8), but it can work on any Rollbar.js version, that contains the Telemetry.
+We've tested it on [Rollbar.js v2.2.8](https://github.com/rollbar/rollbar.js/releases/tag/v2.2.8), but it can work with any Rollbar.js version, that contains the Telemetry.
 
-### Instalation
+### Installation
 
 ```
 npm install redux-rollbar-log-middleware --save
@@ -88,4 +88,9 @@ export const asyncAction = () => dispatch => {
 | body | `object` | - | Capture event body |
 
 
-You can find more usecases in the tests.
+You can find more usecases in the [tests](./src/index.spec.js).
+
+
+### License
+
+MIT
