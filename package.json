@@ -1,0 +1,57 @@
+{
+  "name": "redux-rollbar-log-middleware",
+  "version": "0.1.0",
+  "description": "Log and capture events on Rollbar from the redux-actions",
+  "main": "lib/redux-rollbar-log-middleware.js",
+  "scripts": {
+    "test": "jest src",
+    "lint": "eslint src spec",
+    "build": "cross-env NODE_ENV=production webpack && webpack",
+    "dev": "webpack --progress --colors --watch",
+    "prepublish": "rimraf lib && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syft-Application/redux-rollbar-log-middleware.git"
+  },
+  "keywords": [
+    "rollbar",
+    "redux",
+    "middleware",
+    "log",
+    "captureEvent",
+    "telemetry",
+    "react",
+    "syft"
+  ],
+  "author": "Syft Online LTD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Syft-Application/redux-rollbar-log-middleware/issues"
+  },
+  "homepage": "https://github.com/Syft-Application/redux-rollbar-log-middleware#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-react-app": "^2.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-flowtype": "^2.35.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.14.3",
+    "jest": "^21.1.0",
+    "lodash": "^4.17.4",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react-app": "^3.0.2",
+    "babel-runtime": "^6.26.0"
+  }
+}
