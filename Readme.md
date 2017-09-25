@@ -3,6 +3,8 @@
 
 Middleware that helps log and captureEvent to [Rollbar](https://rollbar.com) from the redux actions
 
+**Note:** `lib/` is in repo until we publish package on npm
+
 ## Requirements
 
 We've tested it on [Rollbar.js v2.2.8](https://github.com/rollbar/rollbar.js/releases/tag/v2.2.8), but it can work with any Rollbar.js version, that contains the Telemetry.
