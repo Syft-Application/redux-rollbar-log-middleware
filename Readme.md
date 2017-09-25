@@ -1,7 +1,7 @@
 
 ## Redux Rollbar Log Middleware
 
-Middleware that helps log and captureEvent to Rollbar from the redux actions
+Middleware that helps log and captureEvent to [Rollbar](https://rollbar.com) from the redux actions
 
 ## Requirements
 
