@@ -1,6 +1,6 @@
 {
   "name": "redux-rollbar-log-middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Log and capture events on Rollbar from the redux-actions",
   "main": "lib/redux-rollbar-log-middleware.js",
   "scripts": {
